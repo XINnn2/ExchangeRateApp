@@ -158,13 +158,6 @@ if active_page == "📊 Market Insights":
 elif active_page == "💰 Budget & Hospital Planner":
     st.title("💰 Budget & Hospital Planner")
 
-    st.markdown("### 📅 Exchange Rate Forecast Table")
-    forecast_table = pd.DataFrame({
-        "Date": future_dates.strftime('%Y-%m-%d'),
-        "Forecasted Rate": future_forecast
-    })
-    st.dataframe(forecast_table, hide_index=True)
-
     st.markdown("---")
     st.markdown("### 🧮 Medical Cost Conversion")
 
@@ -326,3 +319,4 @@ st.caption(
     "MedFX Navigator © 2026 | Educational Decision-Support Tool | "
     "Not a substitute for medical or financial advice"
 )
+
