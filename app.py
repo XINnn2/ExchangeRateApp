@@ -193,7 +193,7 @@ elif active_page == "💰 Budget & Hospital Planner":
             "Knee Replacement",
             "LASIK Eye Surgery"
         ],
-        "Cost_MYR": [2000, 8000, 45000, 7500]
+        "Cost_MYR": [1513, 6000, 28000, 4980]
     }
 
     proc_df = pd.DataFrame(procedures)
@@ -319,4 +319,5 @@ st.caption(
     "MedFX Navigator © 2026 | Educational Decision-Support Tool | "
     "Not a substitute for medical or financial advice"
 )
+
 
