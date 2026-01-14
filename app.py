@@ -137,12 +137,6 @@ if active_page == "📊 Market Insights":
         line=dict(dash="dash")
     ))
 
-    fig.add_trace(go.Scatter(
-        x=future_dates,
-        y=future_forecast,
-        name="Future Forecast",
-        line=dict(width=4)
-    ))
 
     fig.update_layout(
         title="Holt (Double Exponential Smoothing) Exchange Rate Forecast",
@@ -319,5 +313,6 @@ st.caption(
     "MedFX Navigator © 2026 | Educational Decision-Support Tool | "
     "Not a substitute for medical or financial advice"
 )
+
 
 
